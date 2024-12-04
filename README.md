@@ -4,7 +4,7 @@
 
 ### Bing chilling
 
-Soo, Viktor Nation, how we doing?
+Soo, Viktor Nation, how we feelin'?
 
 - Jayce
 - Jaybe
