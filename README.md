@@ -8,7 +8,7 @@ Soo, Viktor Nation, how we feelin'?
 
 - Jayce
 - Jaybe
-- Or... Jaybe not
+- Or... Jaybe ~~n~~ <sup>o</sup><sub>t</sub>
 
 
 Maybe Arcane were the friends we made along the way?
