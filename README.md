@@ -1,4 +1,4 @@
-# Python_Kurz
+# python_course
 
 ## Just a course I'm doing
 
