@@ -6,3 +6,4 @@ print(f"Zároveň zde můžeme vidět tuto část na indexu 7 - 14: {text[7:14]}
 print(f"Při této metodice můžeme vyříznout slovo, třeba toto: {text[29:39]}")
 print(f"Můžeme vypsat i každý druhý znak: {text[1:76:2]}")
 print(f"Či celý text obrátit: {text[::-1]}")
+
