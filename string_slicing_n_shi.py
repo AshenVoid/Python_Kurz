@@ -3,10 +3,10 @@ text = "Pomocí speciálního příkazu s operátorem [] můžeme řetězec pře
 #Methodics of string slicing and manipulation
 
 #Number of specified characters
-print(f"V textu se znak 's' nachází {text.count(input("Který znak? "))}")
+print(f"V textu se zvolený znak nachází: {text.count(input("Který znak? "))}x")
 
 #Slice any characters and return them
-print(f"Zároveň zde můžeme vidět tuto část na indexu 7 - 14: {text[7:14]}")
+print(f"Zároveň zde můžeme vidět tuto část na indexu 7 - 14: {text[7:15]}")
 
 #Extract specified word
 print(f"Při této metodice můžeme vyříznout slovo, třeba toto: {text[29:39]}")
