@@ -1,6 +1,5 @@
 text = "Pomocí speciálního příkazu s operátorem [] můžeme řetězec přečíst od konce?"
 
-
 #Methodics of string slicing and manipulation
 print(f"V textu se znak 's' nachází {text.count("s")}")
 print(f"Zároveň zde můžeme vidět tuto část na indexu 7 - 14: {text[7:14]}")
