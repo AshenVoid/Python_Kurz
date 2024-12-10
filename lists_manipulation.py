@@ -11,6 +11,7 @@ print("Good job!")
 
 jmena = ["Jura", ["Eliška"], "Katka"]
 # ["Jura", ["Eliška", "Ruda"], "Božka", "Katka", ["Michal", "Liza"]]
+
 jmena[1].insert(1, "Ruda")
 jmena.insert(2, "Božka")
 #jmena.append(["Michal", "Liza"])   - Možnost i takhle
@@ -26,9 +27,11 @@ print("Gratuluji")
 vsechny_jmena = ["Jura", ["Eliška", "Ruda"], "Božka", "Katka", ["Michal", "Liza"]] #Tento řádek neupravujte
 #pomocí příkazu .pop(index) odeberte vsechny_jmena, tak aby obsahovala pouze:
 # ["Jura", ["Eliška"], "Katka"]
+
 vsechny_jmena[1].pop(1)
 vsechny_jmena.pop(2)
 vsechny_jmena.pop(3) #Po odstranění hodnoty na indexu 2 se hodnota na 4. indexu mění na hodnotu na 3. indexu
+
 #   ŘÁDKY níže neupravujte
 jmena = ["Jura", ["Eliška"], "Katka"]
 assert jmena==vsechny_jmena, f"Chyba, vyšlo {vsechny_jmena}, ale mělo vyjít {jmena} "
@@ -56,8 +59,10 @@ print("Gratuluji")
 vsechny_jmena = ["Jura", ["Eliška", "Ruda"], "Božka", "Katka", ["Michal", "Liza"]] #Tento řádek neupravujte
 #pomocí příkazu .clean() promažte vnořené listy tak, aby vsechny_jmena obsahovala pouze:
 # ["Jura", [], "Božka", "Katka", []]
+
 vsechny_jmena[1].clear()
 vsechny_jmena[4].clear()
+
 #   ŘÁDKY níže neupravujte
 jmena = ["Jura", [], "Božka", "Katka", []]
 assert jmena==vsechny_jmena, f"Chyba, vyšlo {vsechny_jmena}, ale mělo vyjít {jmena} "
@@ -68,8 +73,10 @@ print("Gratuluji")
 
 puvodni_list = [1,4,9,[5,2],6] #Nesahat na toto
 # Použijte dva příkazy .reverse() tak ať dostanete: [6, [2, 5], 9, 4, 1]
+
 puvodni_list.reverse()
 puvodni_list[1].reverse()
+
 #Na řádky níže nesahat
 assert puvodni_list == [6, [2, 5], 9, 4, 1], f"Chyba, má vyjít [6, [2, 5], 9, 4, 1], ale vyšlo {puvodni_list}"
 print("Správně!!")
