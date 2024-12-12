@@ -1,4 +1,3 @@
-import math
 
 # Funkce na vykreslování plátna
 def vykreslit_platno(platno):
