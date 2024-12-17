@@ -68,16 +68,17 @@ while True:
                 j += 1
             i += 1
     elif volba == 4:
-        i = 0
-        while i < velikost:
-            j = -i
-            while j <= i:
-                if 0 <= y + i < vyska and 0 <= x + j < sirka:
-                    platno[y + i][x + j] = "#"
-                if 0 <= y - i < vyska and 0 <= x + j < sirka:
-                    platno[y - i][x + j] = "#"
-                j += 1
-            i += 1
+        # Vykreslení horní poloviny diamantu
+        for i in range(velikost):
+            for j in range(-i, i + 1):
+                if 0 <= y - velikost + 1 + i < vyska and 0 <= x + j < sirka:
+                    platno[y - velikost + 1 + i][x + j] = "#"
+
+        # Vykreslení dolní poloviny diamantu
+        for i in range(velikost - 2, -1, -1):
+            for j in range(-i, i + 1):
+                if 0 <= y + velikost - 1 - i < vyska and 0 <= x + j < sirka:
+                    platno[y + velikost - 1 - i][x + j] = "#"
     elif volba == 5:
         i = -r
         while i <= r:
