@@ -118,3 +118,11 @@ def restaurant_menu():
 
 if __name__ == "__main__":
     restaurant_menu()
+
+
+#dish1 = Dish("Margherita Pizza", 8, "Italian", "Yes")
+#dish2 = Dish("Beef Burger", 10, "American", "No")
+#dish3 = Dish("Caesar Salad", 7, "Salad", "No")
+#dish4 = Dish("Vegetable Stir Fry", 12, "Asian", "Yes")
+#dish5 = Dish("Grilled Chicken Breast", 10, "Grill", "No")
+#dish6 = Dish("Mushroom Risotto", 6, "Italian", "Yes")
