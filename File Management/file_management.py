@@ -16,6 +16,7 @@ def main():
 
     nazev_souboru = input("Zadejte název souboru včetně přípony: ")
 
+
     try:    #test try bloku pro odchycení možných errorů
         if volba == "1":
             cist_soubor(nazev_souboru)
