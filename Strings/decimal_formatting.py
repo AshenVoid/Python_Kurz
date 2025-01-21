@@ -10,7 +10,7 @@ if age == "1":
     year_variable = "year"
 
 
-print(f"I see, your name is {name} {surname} and you are {age} {year_variable} old, I can also see that you have around {number_of_limbs} limbs, now I know everything.")
+print(f"I see, your jmeno is {name} {surname} and you are {age} {year_variable} old, I can also see that you have around {number_of_limbs} limbs, now I know everything.")
 
 percent_of_human = (int(number_of_limbs) / 4) * 100
 

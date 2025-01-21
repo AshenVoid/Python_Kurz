@@ -84,13 +84,13 @@ def restaurant_menu():
         elif choice == "2":
             menu.get_vegetarian_dishes()
         elif choice == "3":
-            name = input("Dish name: ")
+            name = input("Dish jmeno: ")
             price = float(input("Dish price (in dollars): "))
             category = input("Category of the dish: ")
             is_vegetarian = input("Is the food vegetarian (yes/no): ").lower() == "yes"
             menu.add_dish(Dish(name, price, category, is_vegetarian))
         elif choice == "4":
-            customer_name = input("Customer's name: ")
+            customer_name = input("Customer's jmeno: ")
             payment_method = input("Payment method (cash / card / mobile): ")
             order = Order(customer_name, payment_method)
 

@@ -5,11 +5,11 @@ def print_hello_world():
 print_hello_world()
 print_hello_world()
 
-# Function definition of greet_by_name (name)
+# Function definition of greet_by_name (jmeno)
 def greet_by_name(name):
     print(f"Hello, {name}")
 
-# Call function greet_by_name (name) with "John" as the name argument
+# Call function greet_by_name (jmeno) with "John" as the jmeno argument
 greet_by_name("John")
 greet_by_name("Albert")
 
